@@ -1,4 +1,5 @@
 In VSCode run terminal (Power Shell) and type for, Creating New React project : npx create-react-app ('app name')
+
 Update package.json with ( "dependencies": {
    "@testing-library/jest-dom": "^5.17.0",
    "@testing-library/react": "^13.4.0",
@@ -8,5 +9,7 @@ Update package.json with ( "dependencies": {
    "react-dom": "^18.2.0",
    "react-scripts": "5.0.1"
  }
+
 Delete : node_modules and package-lock.json
-in terminal run : npm install
+
+In terminal run one by one: npm install, npm install web-vitals@latest , npm install svgo@2.0.0
