@@ -1,15 +1,24 @@
-In VSCode run terminal (Power Shell) and type for, Creating New React project : npx create-react-app ('app name')
+This guide provides instructions to set up a new React project, including creating the project, updating dependencies, cleaning up, and installing necessary packages.
 
-Update package.json with ( "dependencies": {
-   "@testing-library/jest-dom": "^5.17.0",
-   "@testing-library/react": "^13.4.0",
-   "@testing-library/user-event": "^13.5.0",
-   "cra-template": "1.2.0",
-   "react": "^18.2.0",
-   "react-dom": "^18.2.0",
-   "react-scripts": "5.0.1"
- }
+In VSCode, open the terminal (PowerShell) and create a new React project:
+   ```Shell
+   npx create-react-app 'app name'
+1 Update package.json dependencies:
+{
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "cra-template": "1.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  }
+}
+2. Delete node_modules folder and package-lock.json file.
+3. In the terminal, run the following commands one by one:
+npm install
+npm install web-vitals@latest
+npm install svgo@2.0.0
 
-Delete : node_modules and package-lock.json
-
-In terminal run one by one: npm install, npm install web-vitals@latest , npm install svgo@2.0.0
+Start the development server: npm start
