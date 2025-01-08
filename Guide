@@ -2,7 +2,7 @@ This guide provides instructions to set up a new React project, including creati
 
 In VSCode, open the terminal (PowerShell) and create a new React project:
    ```Shell
-   npx create-react-app 'app name'
+   npx create-react-app 'app name' or npx  create-react-app@^5.0.1 'app name'
 1 Update package.json dependencies:
 {
   "dependencies": {
